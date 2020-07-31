@@ -1,0 +1,55 @@
+
+
+<div class="row" style="background-image: url(./assets/pro1.jpg);" >
+       
+    <div class="col-lg-6 text-center" *ngFor="let i of products">
+        <a routerLink='/product-detail/{{i._id}}'>
+            <img width="400px" height="400px" src="http://localhost:3006/{{i.productImagePath}}" alt="">
+            <h3>Name: {{i.name}}</h3>
+            <h4>Price: {{i.price}}<i class="fas fa-rupee-sign"></i></h4>
+        </a>
+
+      
+        <hr>
+ 
+          
+        </div>
+
+
+    <!--<div class="col-lg-8  bg-gray">
+       <h1>
+          Name : {{products.name}}
+       </h1>
+       <hr>
+       <h3>
+         Category :    {{products.category.name}}
+       </h3>
+       <hr>
+       <span>
+         Price :  {{products.price}}<i class="fas fa-rupee-sign"></i>
+       </span>
+       <hr>
+       <p>
+        Description :     {{products.description}}
+       </p>
+       <h4>
+           Select Qty:
+       </h4>
+       <span>
+           
+           <select name="" id="" #ingre_qty>
+               <option value="1">1</option>
+               <option value="2">2</option>
+               <option value="3">3</option>
+               <option value="4">4</option>
+               <option value="6">6</option>
+               <option value="7">7</option>
+               <option value="8">8</option>
+               <option value="9">9</option>
+               <option value="10">10</option>
+        
+           </select>
+       </span>
+       <hr>
+    </div>-->
+</div>

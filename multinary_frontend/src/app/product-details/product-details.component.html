@@ -1,0 +1,96 @@
+<div class="row" style="background-image: url(./assets/pro1.jpg);" >
+       
+    <div class="col-lg-4 text-center">
+            <img width="400px" height="400px" src="http://localhost:3006/{{products.productImagePath}}" alt="">
+        </div>
+
+
+    <div class="col-lg-8  bg-gray ">
+       <h1>
+          Name : {{products.name}}
+       </h1>
+       <hr>
+       <h3>
+         Category :    {{products.category.name}}
+       </h3>
+       <hr>
+       <h4>
+         Price :  {{products.price}}<i class="fas fa-rupee-sign"></i>
+       </h4><hr>
+       <h4>
+       Stock :  {{products.stock}}
+      </h4>
+       <hr>
+       <h5>
+        Description :     {{products.description}}
+       </h5><hr>
+       <h4>
+           Select Qty:
+       </h4>
+       <span>
+           
+           <select name="" id="" #ingre_qty>
+               <option value="1">1</option>
+               <option value="2">2</option>
+               <option value="3">3</option>
+               <option value="4">4</option>
+               <option value="6">6</option>
+               <option value="7">7</option>
+               <option value="8">8</option>
+               <option value="9">9</option>
+               <option value="10">10</option>
+        
+           </select>
+       </span>
+       <hr>
+       <button (click)="addTocart()" class="btn btn-warning text-dark"> 
+            Add to Cart  <i class="fas fa-shopping-cart"></i>
+       </button>
+    </div>
+</div>
+
+
+
+<!--<div class="row">
+
+    <div class="col-lg-4 text-center" style="margin-top: 50px;">
+    <img width="350px" height="300px" src="http://localhost:3006/{{products.productImagePath}}" alt="">
+    </div>
+    
+    <div class="col-lg-8 " >
+        <br><br>
+    <h2> Name: {{products.name}}</h2>
+    <hr>
+    
+    <h3>
+        Category :    {{products.category.name}}
+      </h3>
+    
+    <span>
+     Price : {{products.price}}
+    </span>
+    <hr>
+    
+    <p>
+    Product Description: {{products.description}}
+    </p>
+    
+    <h6>Select Quantity</h6>
+    <span>
+        <select name=""  id=""  #ingre_qty>
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+        </select>
+    </span>
+    <hr>
+    
+    
+    <button (click)= "addTocart()" class="btn btn-warning text-dark"> 
+        Add to Cart<i class="fas fa-shopping-cart"></i>
+    </button>
+    
+    </div>
+    
+    </div>-->

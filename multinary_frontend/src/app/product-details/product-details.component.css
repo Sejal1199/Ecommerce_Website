@@ -1,0 +1,38 @@
+
+img
+{
+    border: 10px double transparent;
+  padding: 15px;
+  border-color: black;
+  margin-top: 30px;
+}
+
+h1 
+{
+  font-family: serif ;
+  font-weight: 700;
+  color:#00005c;
+}
+
+h3 
+{
+  font-family: serif ;
+  font-weight: 700;
+  color:#00005c;
+}
+
+h4 
+{
+  font-family: serif ;
+    font-stretch: semi-condensed;
+    font-weight: 550;
+    color:crimson;
+}
+
+h5 
+{
+  font-family: serif ;
+  font-stretch: semi-condensed;
+  font-weight: 550;
+  color:#00005c;
+}

@@ -1,0 +1,20 @@
+h1
+{
+    font-family: serif ;
+    font-weight: 700;
+    color:#02383c;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+
+table, th, td {
+    border: 3px solid black;
+    align-content: center;
+    font-size: large;
+  }
+
+  th,td
+  {
+      color: #00005c;
+  }

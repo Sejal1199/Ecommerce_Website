@@ -1,0 +1,33 @@
+
+<div *ngFor="let i of order; let m = index"  style="background-image: url(./assets/pro1.jpg);">
+
+    <div >
+            <h3> Product Details </h3>
+    
+            <hr>
+    
+            <h4> Product Status : {{i.status}} </h4>
+            
+            <div *ngFor = "let product of i.products">
+        
+                <h4> Product Name : {{product.name}} </h4>
+                <h4> Product Quantity: {{product.count}}</h4>
+            </div>
+            
+            <hr>
+            <h4> Price : {{i.amount}}Rs. </h4>
+            <hr>
+            
+            
+            
+           
+            
+            
+        </div>
+    
+        
+    </div>
+    
+
+
+

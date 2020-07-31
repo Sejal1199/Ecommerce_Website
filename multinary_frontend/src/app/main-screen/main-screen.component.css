@@ -1,0 +1,46 @@
+.color
+{
+    background:black ;
+    color: white;
+}
+
+.photo
+{
+    border: 8px ridge transparent;
+  padding: 15px;
+  border-color: black;
+  margin-top: 30px;
+}
+
+
+h1
+{
+    font-family: serif ;
+    font-weight: 800;
+    color:black;
+    
+}
+
+.text-center
+{
+    padding-top: 20px;
+    margin-bottom: -15px;
+}
+
+h2
+{
+    font-family: serif ;
+    font-weight: 700;
+    color:#00005c;
+
+}
+
+
+h3
+{
+    font-family: serif ;
+    font-stretch: semi-condensed;
+    font-weight: 550;
+    color:darkred;
+
+}

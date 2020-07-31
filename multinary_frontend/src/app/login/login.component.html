@@ -1,0 +1,75 @@
+
+<!--<form #myform="ngForm" (submit)="loginClicked(myform)">
+
+        <div class="row">
+
+            <div class="col-lg-4"></div>
+            
+                <div class="col-lg-4 centerDiv">
+                    <div class="form-group text-center">
+                        <img src="assets/e_logo.png" alt="">
+                    </div>
+                    <div class="form-group">
+                        <label for="">User Email</label>
+                        <input class="form-control" type="email" name="email" ngModel placeholder="Enter Your Email" id="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="">User Password</label>
+                        <input class="form-control" type="password" name="password" ngModel placeholder="Enter Your Password" id="password">
+                    </div>
+                    <div class="form-group text-center">
+                        <button type="submit" class="btn btn-primary">
+                            Login
+                        </button>
+                        <br>
+                        <br>
+                        <p>
+                            OR
+                        </p>
+                        <a routerLink="/register" class="btn btn-warning">
+                            Register
+                        </a>
+
+                    </div>
+
+            
+        
+            </div>
+            <div class="col-lg-4"></div>
+
+        </div>
+</form>-->
+
+
+
+<div class="color">
+    <div class="wrapper fadeInDown">
+      <div id="formContent">
+        <!-- Tabs Titles -->
+    
+        <!-- Icon -->
+        <div class="fadeIn first">
+          <img src="assets/logo.png" id="icon" alt="User Icon" />
+        </div>
+        <br>
+    
+        <!-- Login Form -->
+        <form  #myForm="ngForm" (submit)="loginClicked(myForm)">
+    
+          <label for="email"><h5><i class="fas fa-at" name="email"></i>Email:</h5></label>
+    
+          <input class="form-control" type="email" id="email" class="fadeIn second" name="email" ngModel placeholder="Enter your Email">
+    
+    
+          <label for="password"><h5><i class="fas fa-key" name=password></i>Password:</h5></label>
+    
+          <input  class="form-control" type="password" id="password" class="fadeIn third" ngModel  placeholder="Enter your Password">
+    
+          <input type="submit" class="fadeIn fourth" value="Log In"  routerLink="/main">
+    
+    
+        </form>
+    
+      </div>
+    </div>
+    </div>
